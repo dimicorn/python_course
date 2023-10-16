@@ -1,0 +1,6 @@
+*.txt
+*.fasta
+/__pycache__
+*/__pycache__
+*solved.py
+TODO
