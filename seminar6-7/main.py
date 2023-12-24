@@ -1,7 +1,7 @@
 from classes import GameOfLife
 
 
-def main():
+def main() -> None:
     g = GameOfLife()
     g.run()
 

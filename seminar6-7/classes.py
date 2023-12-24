@@ -9,6 +9,7 @@ class GameOfLife(object):
     w_width, w_height = 600, 600
     finished = False
     FPS = 60
+    cell_size = 10
     screen = pg.display.set_mode((w_width, w_height))
 
     def __init__(self) -> None:
@@ -30,3 +31,4 @@ class GameOfLife(object):
             pg.display.flip()
             pg.time.wait(t)
         pg.quit()
+    
